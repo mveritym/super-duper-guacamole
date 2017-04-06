@@ -3,6 +3,8 @@ var path = require('path');
 
 var app = express();
 
+app.use(express.static(path.join(__dirname, 'static')));
+
 app.use('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
