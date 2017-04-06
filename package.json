@@ -1,0 +1,23 @@
+{
+  "name": "super-duper-guacamole",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mveritym/super-duper-guacamole.git"
+  },
+  "author": "Melissa Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mveritym/super-duper-guacamole/issues"
+  },
+  "homepage": "https://github.com/mveritym/super-duper-guacamole#readme"
+}
