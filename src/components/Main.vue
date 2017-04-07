@@ -1,8 +1,10 @@
 
 <template>
   <div class="main">
-    <h2>Melissa Marshall</h2>
     <navigation></navigation>
+    <div class="content">
+      <h2>Melissa Marshall</h2>
+    </div>
   </div>
 </template>
 
@@ -18,5 +20,15 @@ export default {
 </script>
 
 <style scoped>
+  .main {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
 
+  .content {
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+  }
 </style>

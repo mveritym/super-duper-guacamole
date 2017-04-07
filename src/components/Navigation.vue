@@ -1,7 +1,6 @@
 <template>
   <div class="navigation">
     <ul>
-      <li>projects</li>
       <li>blog</li>
       <li>github</li>
       <li>twitter</li>
@@ -17,8 +16,23 @@ export default {
 
 <style scoped>
 
+  .navigation {
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-color: var(--light-grey);
+  }
+
+  ul {
+    padding: 30px 15px;
+    margin: 0;
+  }
+
   li {
+    color: var(--black-coral);
+    font-weight: bold;
     list-style: none;
+    margin-bottom: 30px;
   }
 
 </style>
