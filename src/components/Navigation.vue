@@ -31,8 +31,12 @@ export default {
   li {
     color: var(--black-coral);
     font-weight: bold;
+    font-family: var(--roboto);
+    font-size: 18px;
+    line-height: 20px;
+
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
 </style>
