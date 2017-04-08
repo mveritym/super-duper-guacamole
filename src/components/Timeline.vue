@@ -16,19 +16,19 @@
       <li class="minor">
         <div>
           <time>Jun 2016 – Jan 2017</time>
-          <p>Worked for a large retail client</p>
+          <p>Worked for a large <a href="https://red-badger.com/our-work/case-study/retailer">retail client</a></p>
         </div>
       </li>
       <li class="minor">
         <div>
           <time>Apr – Jun 2016</time>
-          <p>Implemented the redesign of camdenmarket.com</p>
+          <p>Implemented the redesign of <a href="">camdenmarket.com</a></p>
         </div>
       </li>
       <li>
         <div>
           <time>Mar 2016</time>
-          <p>Moved to London, joined Red Badger Consulting</p>
+          <p>Moved to London, joined <a href="https://red-badger.com/">Red Badger Consulting</a></p>
         </div>
       </li>
       <li class="minor">
@@ -51,15 +51,15 @@
       </li>
       <li>
         <div>
-          <time>June 2014</time>
-          <p>Joined ThoughtWorks San Francisco</p>
+          <time>Jun 2014</time>
+          <p>Joined <a href="https://www.thoughtworks.com/">ThoughtWorks</a> San Francisco</p>
         </div>
       </li>
       <li>
         <div>
           <time>May 2014</time>
           <p>
-            Graduated from Macalester College with double majors in Computer Science and Physics
+            Graduated from <a href="https://www.macalester.edu/">Macalester College</a> with double majors in Computer Science and Physics
             with Astronomy Emphasis
           </p>
         </div>
@@ -114,6 +114,12 @@ export default {
 
   .timeline p {
     margin: 0;
+  }
+
+  .timeline a {
+    color: var(--lapis-lazuli);
+    font-weight: bold;
+    text-decoration: none;
   }
 
   .timeline ul li {
