@@ -4,8 +4,16 @@
     </div>
     <ul>
       <li><img src="../assets/blog-icon.png" />blog</li>
-      <li><img src="../assets/github-icon.png" />github</li>
-      <li><img src="../assets/twitter-icon.png" />twitter</li>
+      <li>
+        <a href="https://www.github.com/mveritym">
+          <img src="../assets/github-icon.png" />github
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/mveritym">
+          <img src="../assets/twitter-icon.png" />twitter
+        </a>
+      </li>
     </ul>
   </div>
 </template>
@@ -33,6 +41,11 @@ export default {
     width: 75px;
   }
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
   ul {
     padding: 30px 15px;
     margin: 0;
@@ -51,7 +64,8 @@ export default {
     text-align: left;
   }
 
-  li > img {
+  li > img,
+  li > a > img {
     vertical-align: middle;
     padding-right: 15px;
   }
