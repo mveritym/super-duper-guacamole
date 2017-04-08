@@ -3,7 +3,7 @@
     <div id="picture">
     </div>
     <ul>
-      <li><img src="../assets/blog-icon.png" />blog</li>
+      <li style="display:none;"><img src="../assets/blog-icon.png" />blog</li>
       <li>
         <a href="https://www.github.com/mveritym">
           <img src="../assets/github-icon.png" />github
