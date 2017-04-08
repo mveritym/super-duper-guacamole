@@ -13,17 +13,20 @@
         before ending up in web development. In my spare time I write poetry and sing in
         a <a href="http://www.goldsmithschoral.org.uk/">choir</a>.
       </p>
+      <timeline></timeline>
     </div>
   </div>
 </template>
 
 <script>
 import Navigation from './Navigation';
+import Timeline from './Timeline';
 
 export default {
   name: 'main',
   components: {
     Navigation,
+    Timeline,
   },
 };
 </script>
