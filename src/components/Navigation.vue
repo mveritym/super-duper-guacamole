@@ -28,7 +28,9 @@ export default {
 
   .navigation {
     float: left;
-    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
     width: 15%;
     background-color: var(--light-grey);
   }
