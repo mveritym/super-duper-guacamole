@@ -22,7 +22,7 @@
       <li class="minor">
         <div>
           <time>Apr – Jun 2016</time>
-          <p>Implemented the redesign of <a href="">camdenmarket.com</a></p>
+          <p>Implemented the redesign of <a href="https://red-badger.com/our-work/case-study/camden-market/">camdenmarket.com</a></p>
         </div>
       </li>
       <li>
