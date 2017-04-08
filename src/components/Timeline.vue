@@ -1,28 +1,93 @@
 <template>
   <div class="timeline">
     <ul>
+      <li style="display:none;">
+        <div>
+          <time>May 2017</time>
+          <p>Left Red Badger, joined USwitch</p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Jan 2017 – present</time>
+          <p>Joined the Red Badger Internal Projects team</p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Jun 2016 – Jan 2017</time>
+          <p>Worked for a large retail client</p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Apr – Jun 2016</time>
+          <p>Implemented the redesign of camdenmarket.com</p>
+        </div>
+      </li>
       <li>
         <div>
-          <time>March 2016</time>
+          <time>Mar 2016</time>
           <p>Moved to London, joined Red Badger Consulting</p>
         </div>
       </li>
-      <li>
+      <li class="minor">
         <div>
-          <time>October 2015</time>
-          <p>Left ThoughtWorks</p>
+          <time>Sep 2014 – Oct 2015</time>
+          <p>Worked at Gap Inc. on a variety of in-store mobile applications</p>
         </div>
       </li>
-      <li>
+      <li class="minor">
         <div>
-          <time>August 2015</time>
+          <time>Aug 2015</time>
           <p>Moved to Oakland, CA</p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Jun – Jul 2015</time>
+          <p>Attended ThoughtWorks University in Pune, India</p>
         </div>
       </li>
       <li>
         <div>
           <time>June 2014</time>
-          <p>Joined ThoughtWorks SF, attended ThoughtWorks University in Pune, India.</p>
+          <p>Joined ThoughtWorks San Francisco</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>May 2014</time>
+          <p>
+            Graduated from Macalester College with double majors in Computer Science and Physics
+            with Astronomy Emphasis
+          </p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Summer '13</time>
+          <p>
+            Worked at Caltech on fixing image persistence in HgCdTe devices (telescope cameras)
+          </p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Summer '12</time>
+          <p>
+            Wrote FITGALAXY, a software package for measuring the stellar brightness of galaxies
+            imaged by the Spitzer Space Telescope
+          </p>
+        </div>
+      </li>
+      <li class="minor">
+        <div>
+          <time>Summer '11</time>
+          <p>
+            Helped developed Macademia, a website for academics to find research collaborators
+            in different disciplines, and Poliwiki, a site for political fact-checking and debate
+          </p>
         </div>
       </li>
     </ul>
@@ -69,6 +134,11 @@ export default {
     height: 30px;
     border-radius: 50%;
     background: inherit;
+  }
+
+  .timeline ul li.minor::after {
+    width: 17px;
+    height: 17px;
   }
 
   .timeline ul li div {
