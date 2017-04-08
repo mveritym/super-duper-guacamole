@@ -114,12 +114,17 @@ export default {
 
   .timeline p {
     margin: 0;
+    max-width: 60%;
   }
 
   .timeline a {
     color: var(--lapis-lazuli);
     font-weight: bold;
     text-decoration: none;
+  }
+
+  .timeline ul {
+    padding-left: 20px;
   }
 
   .timeline ul li {
@@ -152,7 +157,6 @@ export default {
     top: 0;
     width: 400px;
     padding: 0;
-    /*border: var(--lapis-lazuli) 1px solid;*/
   }
 
   .timeline ul li div {
@@ -163,5 +167,16 @@ export default {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--lapis-lazuli) transparent transparent;
+  }
+
+  @media (min-width: 768px) {
+    .timeline p {
+      margin: 0;
+      max-width: 100%;
+    }
+
+    .timeline ul {
+      padding-left: 40px;
+    }
   }
 </style>

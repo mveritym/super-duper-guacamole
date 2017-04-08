@@ -1,7 +1,14 @@
 <template>
   <div class="navigation">
-    <div id="picture">
+    <div class="mobile">
+      <div id="menu">
+        <div />
+        <div />
+        <div />
+      </div>
+      <h2>Melissa Marshall</h2>
     </div>
+    <div class="picture" />
     <ul>
       <li>
         <a href="https://medium.com/@mveritym">
@@ -31,20 +38,31 @@ export default {
 <style scoped>
 
   .navigation {
-    float: left;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 15%;
+    text-align: left;
+    padding: 10px 20px;
     background-color: var(--light-grey);
   }
 
-  #picture {
-    border-radius: 40px;
-    background-image: url("../assets/profile-pic.jpg");
-    margin: 30px auto;
-    height: 75px;
-    width: 75px;
+  .navigation .mobile #menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    padding: 10px 0;
+  }
+
+  .navigation .mobile #menu div {
+    width: 20px;
+    height: 1px;
+    background-color: var(--black-coral);
+    margin: 4px 0;
+    border: 1px solid var(--black-coral);
+    border-radius: 4px;
+  }
+
+  .navigation .mobile h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
   }
 
   a {
@@ -55,6 +73,7 @@ export default {
   ul {
     padding: 30px 15px;
     margin: 0;
+    display: none;
   }
 
   li {
@@ -74,6 +93,37 @@ export default {
   li > a > img {
     vertical-align: middle;
     padding-right: 15px;
+  }
+
+  @media (min-width: 768px) {
+
+    .navigation .mobile {
+      display: none;
+    }
+
+    .navigation {
+      display: block;
+      float: left;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      min-width: 15%;
+      background-color: var(--light-grey);
+    }
+
+    .navigation ul {
+      display: block;
+    }
+
+    .navigation .picture {
+      display: block;
+
+      border-radius: 40px;
+      background-image: url("../assets/profile-pic.jpg");
+      margin: 30px auto;
+      height: 75px;
+      width: 75px;
+    }
   }
 
 </style>

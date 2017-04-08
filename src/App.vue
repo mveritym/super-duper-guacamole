@@ -31,5 +31,8 @@ export default {
 
   --roboto: 'Roboto', sans-serif;
   --open-sans: 'Open Sans', sans-serif;
+
+  --medium-breakpoint: 768px;
+  --large-breakpoint: 1024px;
 }
 </style>
