@@ -3,7 +3,11 @@
     <div id="picture">
     </div>
     <ul>
-      <li style="display:none;"><img src="../assets/blog-icon.png" />blog</li>
+      <li>
+        <a href="https://medium.com/@mveritym">
+          <img src="../assets/blog-icon.png" />blog
+        </a>
+      </li>
       <li>
         <a href="https://www.github.com/mveritym">
           <img src="../assets/github-icon.png" />github
