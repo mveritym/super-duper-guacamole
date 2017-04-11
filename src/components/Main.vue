@@ -34,7 +34,11 @@ export default {
 <style scoped>
 
   h2 {
-    display: none;
+    display: block;
+    font-family: var(--roboto);
+    font-size: 30px;
+    line-height: 32px;
+    margin: 30px 0;
   }
 
   p {
@@ -58,7 +62,7 @@ export default {
   .content {
     height: 100%;
     text-align: left;
-    padding: 15px 40px 15px 65px;
+    padding: 15px 40px 15px 25px;
   }
 
   @media (min-width: 768px) {
@@ -69,11 +73,6 @@ export default {
     }
 
     h2 {
-      display: block;
-      font-family: var(--roboto);
-      font-size: 30px;
-      line-height: 32px;
-      margin-top: 0;
       margin-bottom: 75px;
     }
   }

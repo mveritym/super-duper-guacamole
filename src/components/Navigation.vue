@@ -1,12 +1,18 @@
 <template>
   <div class="navigation">
     <div class="mobile">
-      <div id="menu">
-        <div />
-        <div />
-        <div />
-      </div>
-      <h2>Melissa Marshall</h2>
+      <a href="https://medium.com/@mveritym">
+        <img src="../assets/blog-icon.png" />
+        <div>blog</div>
+      </a>
+      <a href="https://www.github.com/mveritym">
+        <img src="../assets/github-icon.png" />
+        <div>github</div>
+      </a>
+      <a href="https://www.twitter.com/mveritym">
+        <img src="../assets/twitter-icon.png" />
+        <div>twitter</div>
+      </a>
     </div>
     <div class="picture" />
     <ul>
@@ -38,31 +44,16 @@ export default {
 <style scoped>
 
   .navigation {
-    text-align: left;
-    padding: 10px 20px;
     background-color: var(--light-grey);
+    text-align: center;
   }
 
-  .navigation .mobile #menu {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px;
-    padding: 10px 0;
-  }
-
-  .navigation .mobile #menu div {
-    width: 20px;
-    height: 1px;
-    background-color: var(--black-coral);
-    margin: 4px 0;
-    border: 1px solid var(--black-coral);
-    border-radius: 4px;
-  }
-
-  .navigation .mobile h2 {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
+  .navigation .mobile {
+    width: 50%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
   }
 
   a {
@@ -108,7 +99,6 @@ export default {
       top: 0;
       bottom: 0;
       min-width: 15%;
-      background-color: var(--light-grey);
     }
 
     .navigation ul {

@@ -155,7 +155,7 @@ export default {
   .timeline ul li div {
     position: relative;
     top: 0;
-    width: 400px;
+    min-width: 350px;
     padding: 0;
   }
 
