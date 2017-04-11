@@ -45,15 +45,25 @@ export default {
 
   .navigation {
     background-color: var(--light-grey);
-    text-align: center;
   }
 
   .navigation .mobile {
-    width: 50%;
+    width: 90%;
     margin: auto;
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .navigation .mobile a {
+    margin-left: 30px;
+  }
+
+  .navigation .mobile img {
+    width: 24px;
+    height: 24px;
   }
 
   a {
