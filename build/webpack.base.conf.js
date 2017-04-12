@@ -26,7 +26,7 @@ module.exports = {
     }
   },
   resolveLoader: {
-    modulesDirectories: [
+    modules: [
       resolve('node_modules')
     ]
   },
