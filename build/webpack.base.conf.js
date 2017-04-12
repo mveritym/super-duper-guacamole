@@ -25,12 +25,12 @@ module.exports = {
       '@': resolve('src')
     }
   },
+  resolveLoader: {
+    modulesDirectories: [
+      resolve('node_modules')
+    ]
+  },
   module: {
-    resolveLoader: {
-      modulesDirectories: [
-        path.join(__dirname, 'node_modules')
-      ]
-    },
     rules: [
       {
         test: /\.(js|vue)$/,
