@@ -15,6 +15,8 @@ spinner.start()
 
 rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
   if (err) throw err
+  console.log(config.build.assetsRoot);
+  console.log(config.build.index);
   webpack(webpackConfig, function (err, stats) {
     spinner.stop()
     if (err) throw err
