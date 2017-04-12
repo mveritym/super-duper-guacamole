@@ -7,8 +7,6 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-console.log('RESOLVED:', resolve('src/main.js'));
-
 module.exports = {
   entry: {
     app: resolve('src/main.js')
