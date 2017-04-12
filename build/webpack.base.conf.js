@@ -25,6 +25,9 @@ module.exports = {
       '@': resolve('src')
     }
   },
+  resolveLoader: {
+    root: path.join(__dirname, 'node_modules')
+  },
   module: {
     rules: [
       {
