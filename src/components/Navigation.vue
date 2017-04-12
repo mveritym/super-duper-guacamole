@@ -2,33 +2,33 @@
   <div class="navigation">
     <div class="mobile">
       <a href="https://medium.com/@mveritym">
-        <img src="../assets/blog-icon.png" />
+        <img src="../assets/blog-icon.png" alt="blog icon, click to access" />
         <div>blog</div>
       </a>
       <a href="https://www.github.com/mveritym">
-        <img src="../assets/github-icon.png" />
+        <img src="../assets/github-icon.png" alt="github icon, click to access" />
         <div>github</div>
       </a>
       <a href="https://www.twitter.com/mveritym">
-        <img src="../assets/twitter-icon.png" />
+        <img src="../assets/twitter-icon.png" alt="twitter icon, click to access" />
         <div>twitter</div>
       </a>
     </div>
-    <div class="picture" />
+    <img class="picture" src="../assets/profile-pic.jpg" alt="picture of Melissa Marshall" />
     <ul>
       <li>
         <a href="https://medium.com/@mveritym">
-          <img src="../assets/blog-icon.png" />blog
+          <img src="../assets/blog-icon.png" alt="blog icon, click to access" />blog
         </a>
       </li>
       <li>
         <a href="https://www.github.com/mveritym">
-          <img src="../assets/github-icon.png" />github
+          <img src="../assets/github-icon.png" alt="github icon, click to access" />github
         </a>
       </li>
       <li>
         <a href="https://www.twitter.com/mveritym">
-          <img src="../assets/twitter-icon.png" />twitter
+          <img src="../assets/twitter-icon.png" alt="twitter icon, click to access" />twitter
         </a>
       </li>
     </ul>
@@ -113,13 +113,17 @@ export default {
 
     .navigation ul {
       display: block;
+      padding: 30px 25px;
+    }
+
+    .navigation ul li {
+      margin: auto;
+      margin-bottom: 50px;
     }
 
     .navigation .picture {
       display: block;
-
       border-radius: 40px;
-      background-image: url("../assets/profile-pic.jpg");
       margin: 30px auto;
       height: 75px;
       width: 75px;
