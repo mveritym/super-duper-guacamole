@@ -47,6 +47,10 @@ export default {
     background-color: var(--light-grey);
   }
 
+  .navigation .picture {
+    display: none;
+  }
+
   .navigation .mobile {
     width: 90%;
     margin: auto;
