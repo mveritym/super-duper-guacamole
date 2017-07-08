@@ -6,10 +6,11 @@ dependencies:
   override:
     - docker info
     - docker build --rm=false -t mveritym/super-duper-guacamole .
+    - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+    - docker push mveritym/super-duper-guacamole
 
 deployment:
   hub:
     branch: master
     commands:
-      - docker login -u $DOCKER_USER -p $DOCKER_PASS
-      - docker push mveritym/super-duper-guacamole
+      - echo "Deploy"
