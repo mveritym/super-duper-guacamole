@@ -7,9 +7,12 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "serve": "node server.js"
   },
   "dependencies": {
+    "connect": "^3.6.2",
+    "serve-static": "^1.12.3",
     "vue": "^2.2.2",
     "vue-router": "^2.2.0"
   },
