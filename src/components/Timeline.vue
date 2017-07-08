@@ -1,16 +1,22 @@
 <template>
   <div class="timeline">
     <ul>
-      <li style="display:none;">
+      <li class="minor">
+        <div>
+          <time>May 2017 – present</time>
+          <p>Joined <a href="https://labs.uswitch.com/">USwitch</a> engineering – became part of the broadband team</p>
+        </div>
+      </li>
+      <li>
         <div>
           <time>May 2017</time>
-          <p>Left Red Badger, joined USwitch</p>
+          <p>Left Red Badger</p>
         </div>
       </li>
       <li class="minor">
         <div>
-          <time>Jan 2017 – present</time>
-          <p>Joined the Red Badger Internal Projects team</p>
+          <time>Jan 2017 – May 2017</time>
+          <p>Worked on the Red Badger Internal Projects team</p>
         </div>
       </li>
       <li class="minor">
