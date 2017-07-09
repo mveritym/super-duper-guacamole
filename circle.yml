@@ -13,4 +13,5 @@ deployment:
   hub:
     branch: master
     commands:
-      - echo "Deploy"
+      - scp deploy.sh root@178.62.37.224:/home/mel
+      - ssh mel@178.62.37.224 "./deploy.sh"
