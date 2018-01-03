@@ -131,7 +131,7 @@ export default {
     transform: translateX(-50%);
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 5%;
     background: inherit;
   }
 
