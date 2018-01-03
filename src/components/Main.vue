@@ -5,13 +5,12 @@
     <div class="content">
       <h2>Melissa Marshall</h2>
       <p>
-        Welcome! I'm a programmer, astronomer, and writer. I currently work in London at
-        digital consultancy <a href="https://red-badger.com/">Red Badger</a> where I
-        help clients build lovely experiences with ReactJS. I started programming with
-        Lego robots and took a wander through professional <a
-        href="https://arxiv.org/find/astro-ph/1/au:+Marshall_M_V/0/1/0/all/0/1">astronomy</a>
-        before ending up in web development. In my spare time I make Twitter bots and sing in
-        a <a href="http://www.goldsmithschoral.org.uk/">choir</a>.
+        Welcome! I'm a programmer, astronomer, and writer. I currently work in London
+        at <a href="https://red-badger.com/">uSwitch</a> where I build resilient and dependable backend
+        systems. I started programming with Lego robots and took a wander through professional
+        <a href="https://arxiv.org/find/astro-ph/1/au:+Marshall_M_V/0/1/0/all/0/1">astronomy</a>
+        before ending up in software engineering. In my spare time I make Twitter bots and
+        sing in a choir.
       </p>
       <timeline></timeline>
     </div>
