@@ -1,22 +1,16 @@
 <template>
   <div class="timeline">
     <ul>
-      <li class="minor">
-        <div>
-          <time>May 2017 – present</time>
-          <p>Joined <a href="https://labs.uswitch.com/">USwitch</a> engineering – became part of the broadband team</p>
-        </div>
-      </li>
       <li>
         <div>
-          <time>May 2017</time>
-          <p>Left Red Badger</p>
+          <time>May 2017 - present</time>
+          <p>Joined <a href="https://labs.uswitch.com/">uSwitch</a></p>
         </div>
       </li>
       <li class="minor">
         <div>
           <time>Jan 2017 – May 2017</time>
-          <p>Worked on the Red Badger Internal Projects team</p>
+          <p>Improved the Red Badger website as part of the internal projects team</p>
         </div>
       </li>
       <li class="minor">
@@ -41,18 +35,6 @@
         <div>
           <time>Sep 2014 – Oct 2015</time>
           <p>Worked at Gap Inc. on a variety of in-store mobile applications</p>
-        </div>
-      </li>
-      <li class="minor">
-        <div>
-          <time>Aug 2015</time>
-          <p>Moved to Oakland, CA</p>
-        </div>
-      </li>
-      <li class="minor">
-        <div>
-          <time>Jun – Jul 2015</time>
-          <p>Attended ThoughtWorks University in Pune, India</p>
         </div>
       </li>
       <li>
