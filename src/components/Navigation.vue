@@ -128,10 +128,10 @@ export default {
 
     .navigation .picture {
       display: block;
-      border-radius: 40px;
       margin: 30px auto;
-      height: 75px;
-      width: 75px;
+      border-radius: 10px;
+      height: 85px;
+      width: 85px;
     }
   }
 
