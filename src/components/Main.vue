@@ -6,7 +6,7 @@
       <h2>Melissa Marshall</h2>
       <p>
         Welcome! I'm a programmer, astronomer, and writer. I currently work in London
-        at <a href="https://red-badger.com/">uSwitch</a> where I build resilient and dependable backend
+        at <a href="https://labs.uswitch.com/">uSwitch</a> where I build resilient and dependable backend
         systems. I started programming with Lego robots and took a wander through professional
         <a href="https://arxiv.org/find/astro-ph/1/au:+Marshall_M_V/0/1/0/all/0/1">astronomy</a>
         before ending up in software engineering. In my spare time I make Twitter bots and
