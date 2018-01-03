@@ -121,8 +121,6 @@ export default {
     }
 
     .navigation ul li {
-      text-align: center;
-      margin: auto;
       margin-bottom: 50px;
     }
 
