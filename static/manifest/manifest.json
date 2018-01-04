@@ -1,5 +1,7 @@
 {
   "short_name": "Mel Marshall",
   "name": "Melissa Marshall",
-  "start_url": "/?utm_source=app"
+  "start_url": "/?utm_source=app",
+  "theme_color": "#ced3dc",
+  "display": "browser"
 }
