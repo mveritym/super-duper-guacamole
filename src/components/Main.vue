@@ -10,7 +10,7 @@
         systems. I started programming with Lego robots and took a wander through professional
         <a href="https://arxiv.org/find/astro-ph/1/au:+Marshall_M_V/0/1/0/all/0/1">astronomy</a>
         before ending up in web development. In my spare time I make Twitter bots and sing in
-        a <a href="http://www.goldsmithschoral.org.uk/">choir</a>.
+        a choir.
       </p>
       <timeline></timeline>
     </div>
