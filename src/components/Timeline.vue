@@ -129,15 +129,15 @@ export default {
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    width: 30px;
-    height: 30px;
-    border-radius: 5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     background: inherit;
   }
 
   .timeline ul li.minor::after {
-    width: 17px;
-    height: 17px;
+    width: 12px;
+    height: 12px;
   }
 
   .timeline ul li div {
