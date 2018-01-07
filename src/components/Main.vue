@@ -9,8 +9,13 @@
         <a href="https://labs.uswitch.com/">uSwitch</a> where I build resilient and dependable backend
         systems. I started programming with Lego robots and took a wander through professional
         <a href="https://arxiv.org/find/astro-ph/1/au:+Marshall_M_V/0/1/0/all/0/1">astronomy</a>
+<<<<<<< HEAD
         before ending up in web development. In my spare time I make Twitter bots and sing in
         a choir.
+=======
+        before ending up in software engineering. In my spare time I make Twitter bots and
+        sing in a choir.
+>>>>>>> 1df979cc77b7030aab85405791dfac9a9d531b6c
       </p>
       <timeline></timeline>
     </div>
