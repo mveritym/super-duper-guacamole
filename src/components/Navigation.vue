@@ -127,9 +127,9 @@ export default {
     .navigation .picture {
       display: block;
       margin: 30px auto;
-      border-radius: 10px;
-      height: 85px;
-      width: 85px;
+      border-radius: 50px;
+      height: 100px;
+      width: 100px;
     }
   }
 
