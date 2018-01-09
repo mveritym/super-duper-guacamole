@@ -2,15 +2,15 @@
   <div class="navigation">
     <div class="mobile">
       <a href="https://medium.com/@mveritym">
-        <img src="../assets/blog-icon.png" alt="blog icon, click to access" />
+        <img src="../assets/blog-icon-small.png" alt="blog icon, click to access" />
         <div>blog</div>
       </a>
       <a href="https://www.github.com/mveritym">
-        <img src="../assets/github-icon.png" alt="github icon, click to access" />
+        <img src="../assets/github-icon-small.png" alt="github icon, click to access" />
         <div>github</div>
       </a>
       <a href="https://www.twitter.com/mveritym">
-        <img src="../assets/twitter-icon.png" alt="twitter icon, click to access" />
+        <img src="../assets/twitter-icon-small.png" alt="twitter icon, click to access" />
         <div>twitter</div>
       </a>
     </div>
@@ -18,17 +18,20 @@
     <ul>
       <li>
         <a href="https://medium.com/@mveritym">
-          <img src="../assets/blog-icon.png" alt="blog icon, click to access" />blog
+          <img src="../assets/blog-icon.png" alt="blog icon, click to access" />
+          <p>blog</p>
         </a>
       </li>
       <li>
         <a href="https://www.github.com/mveritym">
-          <img src="../assets/github-icon.png" alt="github icon, click to access" />github
+          <img src="../assets/github-icon.png" alt="github icon, click to access" />
+          <p>github</p>
         </a>
       </li>
       <li>
         <a href="https://www.twitter.com/mveritym">
-          <img src="../assets/twitter-icon.png" alt="twitter icon, click to access" />twitter
+          <img src="../assets/twitter-icon.png" alt="twitter icon, click to access" />
+          <p>twitter</p>
         </a>
       </li>
     </ul>
@@ -53,7 +56,6 @@ export default {
 
   .navigation .mobile {
     width: 90%;
-    margin: auto;
     padding: 10px 0;
     display: flex;
     justify-content: flex-end;
@@ -97,7 +99,11 @@ export default {
   li > img,
   li > a > img {
     vertical-align: middle;
-    padding-right: 15px;
+  }
+
+  li > a > p {
+    padding-left: 15px;
+    display: inline;
   }
 
   @media (min-width: 768px) {
@@ -121,6 +127,8 @@ export default {
     }
 
     .navigation ul li {
+      width: 110px;
+      margin: auto;
       margin-bottom: 50px;
     }
 
