@@ -5,17 +5,14 @@
     <div class="content">
       <h2>Photography</h2>
       <section id="photos">
-        <!-- <img src="../assets/photos/dog1.jpeg" />
-        <img src="../assets/photos/dog2.jpeg" />
-        <img src="../assets/photos/dog3.jpeg" /> -->
-        <img src="../assets/photos/DSC_0204.jpg" />
-        <img src="../assets/photos/DSC_0279.jpg" />
-        <img src="../assets/photos/DSC_0297.jpg" />
-        <img src="../assets/photos/DSC_0281.jpg" />
-        <img src="../assets/photos/DSC_0289.jpg" />
-        <img src="../assets/photos/DSC_0253.jpg" />
-        <img src="../assets/photos/DSC_0290.jpg" />
-        <img src="../assets/photos/DSC_0195.jpg" />
+        <img src="../assets/DSC_0204.jpg" />
+        <img src="../assets/DSC_0279.jpg" />
+        <img src="../assets/DSC_0297.jpg" />
+        <img src="../assets/DSC_0281.jpg" />
+        <img src="../assets/DSC_0289.jpg" />
+        <img src="../assets/DSC_0253.jpg" />
+        <img src="../assets/DSC_0290.jpg" />
+        <img src="../assets/DSC_0195.jpg" />
       </section>
     </div>
   </div>
@@ -51,7 +48,7 @@ export default {
     width: 100% !important;
     height: auto !important;
   }
-  
+
   @media (max-width: 800px) {
     #photos {
       -moz-column-count:    2;
