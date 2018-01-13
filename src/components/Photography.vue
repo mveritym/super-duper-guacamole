@@ -4,6 +4,19 @@
     <navigation></navigation>
     <div class="content">
       <h2>Photography</h2>
+      <section id="photos">
+        <!-- <img src="../assets/photos/dog1.jpeg" />
+        <img src="../assets/photos/dog2.jpeg" />
+        <img src="../assets/photos/dog3.jpeg" /> -->
+        <img src="../assets/photos/DSC_0204.jpg" />
+        <img src="../assets/photos/DSC_0279.jpg" />
+        <img src="../assets/photos/DSC_0297.jpg" />
+        <img src="../assets/photos/DSC_0281.jpg" />
+        <img src="../assets/photos/DSC_0289.jpg" />
+        <img src="../assets/photos/DSC_0253.jpg" />
+        <img src="../assets/photos/DSC_0290.jpg" />
+        <img src="../assets/photos/DSC_0195.jpg" />
+      </section>
     </div>
   </div>
 </template>
@@ -20,6 +33,39 @@ export default {
 </script>
 
 <style scoped>
+
+  #photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+
+    -webkit-column-count: 3;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    3;
+    -moz-column-gap:      0px;
+    column-count:         3;
+    column-gap:           0px;
+  }
+
+  #photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  @media (max-width: 800px) {
+    #photos {
+      -moz-column-count:    2;
+      -webkit-column-count: 2;
+      column-count:         2;
+    }
+  }
+  @media (max-width: 400px) {
+    #photos {
+      -moz-column-count:    1;
+      -webkit-column-count: 1;
+      column-count:         1;
+    }
+  }
 
   h2 {
     display: block;
@@ -50,14 +96,16 @@ export default {
   .content {
     height: 100%;
     text-align: left;
+    width: 67%;
     padding: 15px 40px 15px 25px;
   }
 
   @media (min-width: 768px) {
     .content {
       margin-left: 22%;
-      width: 45%;
+      width: 69%;
       margin-top: 25px;
+      padding-right: 10px;
     }
 
     h2 {
