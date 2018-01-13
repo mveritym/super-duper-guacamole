@@ -5,6 +5,10 @@
         <img src="../assets/blog-icon-small.png" alt="blog icon, click to access" />
         <div>blog</div>
       </a>
+      <a href="/#/photography">
+        <img src="../assets/camera-icon-small.png" alt="camera icon, click to access" />
+        <div>photos</div>
+      </a>
       <a href="https://www.github.com/mveritym">
         <img src="../assets/github-icon-small.png" alt="github icon, click to access" />
         <div>github</div>
@@ -20,6 +24,12 @@
         <a href="https://medium.com/@mveritym">
           <img src="../assets/blog-icon.png" alt="blog icon, click to access" />
           <p>blog</p>
+        </a>
+      </li>
+      <li>
+        <a href="/#/photography">
+          <img src="../assets/camera-icon.png" alt="camera icon, click to access" />
+          <p>photos</p>
         </a>
       </li>
       <li>
